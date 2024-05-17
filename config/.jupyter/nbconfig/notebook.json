@@ -1,0 +1,29 @@
+{
+  "keys": {
+    "command": {
+      "bind": {
+        "ctrl-shift-enter": "jupyter-notebook:run-all-cells-above",
+        "9-1-1": "jupyter-notebook:close-and-halt",
+        "ctrl-j": "jupyter-notebook:move-cell-down",
+        "ctrl-k": "jupyter-notebook:move-cell-up",
+        "9,1,1": "jupyter-notebook:close-and-halt"
+      }
+    }
+  },
+  "load_extensions": {
+    "nbextensions_configurator/config_menu/main": true,
+    "collapsible_headings/main": true,
+    "spellchecker/main": false,
+    "toc2/main": true,
+    "notify/notify": true,
+    "scratchpad/main": true,
+    "rubberband/main": false
+  },
+  "Notebook": {
+    "Toolbar": false
+  },
+  "notify": {
+    "play_sound": true,
+    "sticky": true
+  }
+}
